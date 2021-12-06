@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100vw;
+  height: auto;
+  max-width: 100%;
+}
+
+button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 12px 24px;
+  background: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  background: burlywood;
+}
